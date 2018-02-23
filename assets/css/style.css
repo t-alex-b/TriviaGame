@@ -5,7 +5,8 @@ body {
 
 }
 div {
-  margin-bottom: 20px;
+	margin: 20px;
+	border: 4px goldenrod dotted;
 }
 .correct, .incorrect {
   text-transform: capitalize;
@@ -14,8 +15,8 @@ div {
 div.container {
 	padding: 100px;
 	background-color: black;
-
-}
+	width: 50%;
+	}
 
 /* .button {
 	background-color: grey;
@@ -44,4 +45,14 @@ div.container {
 #choices_div {
 	margin-right: 150px;
 
+}
+
+#correct {
+	background-color: black;
+	color: white;
+}
+
+#incorrect {
+	background-color: black;
+	color: white;
 }

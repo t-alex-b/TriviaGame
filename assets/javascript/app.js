@@ -41,34 +41,34 @@ $.fn.trivia = function () {
 		correct: 0
 	},
 	{
-		question: '',
-		choices: '',
+		question: 'What is the name of the all-magic village outside of Hogwart\'s?',
+		choices: ['Surrey', 'Fiddlum Bens', 'Hogsmeade', 'Toadston'],
 		images: '',
-		correct: '',
+		correct: 2
 	},
 	{
-		question: '',
-		choices: '',
+		question: 'Who is Harry\'s first love interest in the series?',
+		choices: ['Ginney Weasley', 'Cho Chang', 'Neville Longbottom', 'Penelope Clearwater'],
 		images: '',
-		correct: '',
+		correct: 1
 	},
 	{
-		question: '',
-		choices: '',
+		question: 'Which of the Deathly Hallows is passed down through Harry\'s family?',
+		choices: ['Resurrection Stone', 'Elder Wand', 'Invisibility Cloak', 'Dragon\'s egg'],
 		images: '',
-		correct: '',
+		correct: 2
 	},
 	{
-		question: '',
-		choices: '',
+		question: 'How many wizards traditionally compete in the Tri-wizard Tournament?',
+		choices: ['2', '4', '3', '6'],
 		images: '',
-		correct: '',
+		correct: 2
 	},
 	{
-		question: '',
-		choices: '',
+		question: 'what is the name of Harry\'s cousin whom he lives with?',
+		choices: ['Chudley', 'Diddy', 'Gary', 'Dudley'],
 		images: '',
-		correct: '',
+		correct: 3
 	}];
 	_t.ask = function () {
 		if (_t.questions[_t.current]) {
