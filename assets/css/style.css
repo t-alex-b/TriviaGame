@@ -13,10 +13,11 @@ div {
 
 div.container {
 	padding: 100px;
+	background-color: black;
 
 }
 
-.button {
+/* .button {
 	background-color: grey;
 	border: none;
 	color: #3a3d3d
@@ -25,4 +26,22 @@ div.container {
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;S
+} */
+
+#timer {
+	text-align: center;
+	font-size:  40px;
+	color: #ffff0062
+}
+
+#question_div{
+	background-color: black;
+	font-size: 20px;
+	color: white;
+	padding: 100px;
+}
+
+#choices_div {
+	margin-right: 150px;
+
 }

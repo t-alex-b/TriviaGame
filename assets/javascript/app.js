@@ -1,4 +1,5 @@
 // 
+
 $.fn.trivia = function () {
 	var _t = this;
 	_t.userPick = null;
@@ -22,22 +23,22 @@ $.fn.trivia = function () {
 		correct: 2
 	},
 	{
-		question: '',
-		choices: '',
+		question: 'Who is Harry\'s least favorite proffesor?',
+		choices: ['Snape', 'McGonagall', 'Sprout', 'Filch'],
 		images: '',
-		correct: '',
+		correct: 0
 	},
 	{
-		question: '',
-		choices: '',
+		question: 'What are the magical plants used to revive someone who\'s been petrified?',
+		choices: ['Gillyweed', 'Dandelions', 'Mandrakes', 'Devil\'s Snare'],
 		images: '',
-		correct: '',
+		correct: 2
 	},
 	{
-		question: '',
-		choices: '',
+		question: 'In which year are Hogwart\'s students traditionally allowed to join their house quidditch team?',
+		choices: ['2','3','7','1'],
 		images: '',
-		correct: '',
+		correct: 0
 	},
 	{
 		question: '',
